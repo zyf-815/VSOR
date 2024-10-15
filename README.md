@@ -12,5 +12,5 @@ Video salient object ranking aims to simulate the human attention mechanism by d
 </p>
 
 # Datasets
-RVSOD\[\herf{https://github.com/Pchank/Ranking-Video-Salient-Object-Detection}{link}\]
-DAVSOD\[\herf{https://github.com/DengPingFan/DAVSOD}{link}\]
+RVSOD[link](https://github.com/Pchank/Ranking-Video-Salient-Object-Detection)
+DAVSOD[link](https://github.com/DengPingFan/DAVSOD)
