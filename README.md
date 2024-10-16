@@ -21,3 +21,12 @@ RVSOD\[[link](https://github.com/Pchank/Ranking-Video-Salient-Object-Detection)\
 
 Our code is based on detectron2 \[[link](https://github.com/facebookresearch/detectron2)\] and you can create the env from \[[link](https://github.com/dragonlee258079/Saliency-Ranking/blob/main/INSTALL.md)\]
 
+# Start for training
+
+```
+python ./tool/plain_train_net.py
+```
+
+# Acknowledgment
+
+Our code is totally based on IRSR([paper](https://ieeexplore.ieee.org/document/9523772) , [code](https://github.com/dragonlee258079/Saliency-Ranking/tree/main))
