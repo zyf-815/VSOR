@@ -1,0 +1,17 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/model/pre_model.pth"
+  #WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/tools/Rank_Saliency/Models/RVSOR(52)/model_0019999.pth"
+  #WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/tools/Rank_Saliency/Models/RVSOR(2)/model_final.pth"
+  #WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/tools/Rank_Saliency/Models/RVSOR(3)/model_final.pth"
+  #WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/tools/Rank_Saliency/Models/RVSOR(25)/model_0029999.pth"
+  #WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/tools/Rank_Saliency/Models/RVSOR(31)/model_0049999.pth"
+  #WEIGHTS: "/home/zyf/code/Saliency-Ranking-main/tools/Rank_Saliency/Models/RVSOR(43)/model_0069999.pth"
+  MASK_ON: True
+  RESNETS:
+    DEPTH: 50
+SOLVER:
+  #STEPS: (40000, 180000)
+  STEPS: (80000,100000)
+  #STEPS: (100000, 180000)
+  MAX_ITER: 100000
